@@ -1,0 +1,415 @@
+body
+{
+	
+}
+
+.btn
+{
+	height: 30px;
+	width: 30px;
+	border-radius: 20px;
+	position: absolute;
+	top: 50px;
+	right: 170px;
+	cursor: pointer;
+}
+
+ .menu
+ {
+ 	padding: 20px 0px 10px 90px;
+ 	background: black;
+ 	color: white;
+ }
+
+ .topmenu
+ {
+ 	background:#B2BABB;
+ 	display: flex;
+ 	padding: 0px 0px 0px 80px;
+ }
+
+ .gar
+ {
+ 	background: #CCD1D1;
+ 	width: 100px;
+ 	height: 20px;
+ 	justify-content: center;
+ 	flex-direction: row;
+ 	margin: 15px 5px 15px 5px;
+ 	text-align: center;
+    cursor: pointer;
+    padding: 5px;
+ 	
+ }
+
+.moda
+{
+	height: 590px;
+	width: 1050px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px 50px 20px 80px;
+}
+
+.moda1
+{
+	height: 270px;
+	width: 220px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 190px;
+	right: 100px;
+	padding: 10px;
+
+}
+
+.moda2
+{
+	height: 310px;
+	width: 220px;
+	position: absolute;
+	top: 470px;
+	right: 100px;
+	padding: 10px
+}
+
+.moda3
+{
+	height: 590px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px 50px 20px 90px;
+}
+
+.moda4
+{
+	height: 250px;
+	width: 240px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 190px;
+	right: 100px;
+	padding: 10px;
+
+}
+
+.moda5
+{
+	height: 320px;
+	width: 240px;
+	position: absolute;
+	top: 460px;
+	right: 100px;
+	padding: 10px
+}
+
+.moda6
+{
+	height: 590px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px 50px 20px 90px;
+}
+
+.moda7
+{
+	height: 230px;
+	width: 240px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 190px;
+	right: 100px;
+	padding: 10px;
+
+}
+
+.moda8
+{
+	height: 340px;
+	width: 240px;
+	position: absolute;
+	top: 440px;
+	right: 100px;
+	padding: 10px
+}
+
+.moda9
+{
+	height: 570px;
+	width: 1050px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 30px 50px 20px 90px;
+}
+
+.moda10
+{
+	height: 240px;
+	width: 230px;
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 190px;
+	right: 100px;
+	padding: 10px;
+
+}
+
+.moda11
+{
+	height: 310px;
+	width: 230px;
+	position: absolute;
+	top: 460px;
+	right: 100px;
+	padding: 10px
+}
+
+
+
+.iniciar
+{
+	background: white;
+	color: black;
+	/*border-radius: 6px;*/
+	margin: 7px;
+	padding: 3px 5px 3px 5px;
+	cursor: pointer;
+ 	position: absolute;
+ 	top: 43px;
+ 	right: 40px;
+}
+
+.muj, .nun, .hom, .bel
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*padding: 10px;*/
+}
+.todo
+{
+	/*background: ;*/
+	/*height: 200px;*/
+	width: 240px;
+	margin: 20px;
+	display: flex;
+	border: 4px solid #D0D0D0;
+}
+
+.elin
+{
+	padding: 15px 10px 0px 0px;
+	text-align: center;
+	background: white;
+	width: 100px;
+}
+
+.fhoto
+{
+	cursor: pointer;
+}
+
+.men{
+	text-align: center;
+	flex-direction: column;
+	width: 100%;
+	background: #CCD1D1;
+	
+}
+
+.nombre{
+	
+	padding: 3px;
+	margin: 10px 10px 10px 10px; 
+	width: 400px;
+	display: inline-block ;
+}
+
+.comentario{
+	padding: 3px;
+	margin: 5px 10px;
+	width: 400px;
+	height: 150PX;
+	display: inline-block ;
+}
+
+.ahora{
+	margin: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.publi{
+	margin: 0px 550px 15px 550px; 
+	text-align: center;
+	width: 400px;
+	height: 130px;
+	padding: 5px;
+	background: white;
+	border: black solid 1px;
+}
+
+.regre{
+	position: absolute;
+	top: 40px;
+	margin: 8px;
+}
+
+
+.buscar{
+	position: absolute;
+	top: 45px;
+	right: 180px;
+}
+
+.input{
+	outline: none;
+	box-sizing: border-box;
+	height: 35px;
+	width: 0px;
+	padding: 0 14px;
+	color: black;
+	border-radius: 50px;
+	font-size: 15px;
+	transition: all .7s ease;
+}
+
+.bus{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 35px;
+	height: 35px;
+	background: white;
+	line-height: 50px;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.bus i{
+	font-size: 20px;
+	color: white;
+	line-height: 70px;
+	transition: all .7s ease;
+}
+
+.buscar:hover input{
+	width: 250px;
+}
+
+.busca{
+	position: absolute;
+	top: 10px;
+	right: 10px;	
+}
+
+.redes{
+	*ckground: #CCD1D1;*/
+	height: 50px;
+	margin: 10px;
+	text-align: center;
+}
+
+.sociales{
+	margin:2px;
+}
+
+.anun{
+	margin: 40px 200px;
+}
+
+.promociones{
+	margin: 10px; 
+
+}
+
+.espacio{
+	height: 40px;
+	width: 200px;
+	color: white;
+}
+
+
+
+
+
+
+.correo{
+	margin: 10px 30px 0px 30px;
+	padding: 3px;
+}
+
+.contrasena{
+	margin: 20px;
+	padding: 3px;
+
+}
+
+.menor{
+	background: gray;
+	/*position: absolute;
+	top: 200px;
+	right: 550px;*/
+	height: 3px;
+	width: 350px;
+	text-align: center;
+	margin: 120px 450px;
+}
+
+
+
+
+
+.salir{
+	position: absolute;
+	top: 30px;
+	margin: 0px 0px 0px 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.compras{
+	margin: 20px;
+	/*display: flex;*/
+	display: inline-block;
+   text-align: center;
+}
+
+.dolares{
+	text-align: left;
+	margin: 10px;
+}
+
+.carri{
+	margin: 5px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.carrito{
+	position: absolute;
+	top: 40px;
+	right: 60px;
+	border-radius: 50%;
+}
+
+
+.carrit{
+	border-radius: 50%;
+}
