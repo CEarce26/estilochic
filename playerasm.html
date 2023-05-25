@@ -4,92 +4,451 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="js/funciones.js"></script>
-	<title>playeras</title>
+	<script type="text/javascript" src="js/funciones1.js"></script>
+	<title>Playeras</title>
 </head>
 <body>
-	<a href="poryecto.html"><img src="img/flecha izquierda.png" height="60px" width="60px" class="salir"></a>
+	<a href="index.html" class="regre"><img src="img/flecha izquierda.png" height="60px" width="60px"></a>
 	
 	<div class="menu">
 			<h1>Estilo chic</h1>
-	
-			<span class="carrito"><img src="img/carrito.png" height="50px" width="50px"></span>
+
+			<div class="favoritos">
+				<img src="img/favorito.jpg" class="favo">
+			</div>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" 
+						fill="none" 
+						viewBox="0 0 24 24" 
+						stroke-width="1.5" 
+						stroke="currentColor" 
+						class="icon-cart">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/>
+					</svg>
+					<div class="count-porducts">
+						<span id="contador-products">0</span>
+					</div>
+				</div>
+				
+				<div>
+					<div class="container-cart-products hidden-cart">
+						<div class="row-product">
+							<div class="cart-product">
+								<div class="info-cart-product">
+									<span class="cantidad-producto-carrito">
+										1
+									</span>
+									<p class="titulo-producto-carrto">
+										CACTUS SET
+									</p>
+									<span class="precio-producto-carrito">
+										$220
+									</span>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" 
+									fill="none" 
+									viewBox="0 0 24 24" 
+									stroke-width="1.5" 
+									stroke="currentColor" 
+									class="icon-close"
+									>
+	 								 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+								</svg>
+							</div>
+						</div>
+						
+
+						<div class="cart-total">
+							<h3>Total:</h3>
+							<span class="total-pagar">220</span>
+						</div>
+					</div>
+				</div>
+			</div>
 	</div>
 	
 	
-
+	<div class="menu-dar">
+		<img src="img/tres barras.jpg" class="tod-menus">
+		<span>Menu</span>
+	</div>
 	<div class="topmenu">
-		<div class="gar mujeres">MUJERES</div>
-		<div class="gar ninos">NIÑOS</div>
-		<div class="gar hombres">HOMBRES</div>
-		<div class="gar belleza">BELLEZA</div>
+		<ul class="rojo">
+			<li><a href="playerasm.html" class="ver">Playeras</a></li>
+			<li><a href="blusa.html" class="ver">Blusas</a></li>
+			<li><a href="vestidos.html" class="ver">Vestidos</a></li>
+			<li><a href="lenceria.html" class="ver">Pijamas</a></li>
+			<li><a href="trajedebaño.html" class="ver">Traje de baño</a></li>
+			<li><a href="pantalones.html" class="ver">Pantalones</a></li>
+			<li><a href="deporte.html" class="ver">Deporte</a></li>
+			<li><a href="falda.html" class="ver">Falda</a></li>
+		</ul>
 	</div>
 
-	<div class="compras">
-		<div>
-			<img src="img/playeraM.jpg" height="250px" width="210px" class="carrit">
-		</div>
+	
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			fill="none" 
+			viewBox="0 0 24 24" 
+			stroke-width="1.5" 
+			stroke="currentColor" 
+			class="fac">
+ 			 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+			</svg>
 
-		<div class="dolares">
-			<span>$</span>
-			<span>150.99</span>
-			<span>MXN</span>
-		</div>
-		<button class="carri">Agregar Carrito</button>
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
 	</div>
 
-	<div class="compras">
-		<div>
-			<img src="img/playeraM.jpg" height="250px" width="210px">
-		</div>
-
-		<div class="dolares">
-			<span>$</span>
-			<span>150.99</span>
-			<span>MXN</span>
-		</div>
-		<button class="carri">Agregar Carrito</button>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera-muje.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SECT TUS</h2>
+				<p class="price">$150</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
 	</div>
 
-	<div class="compras">
-		<div>
-			<img src="img/playeraM.jpg" height="250px" width="210px">
-		</div>
-
-		<div class="dolares">
-			<span>$</span>
-			<span>150.99</span>
-			<span>MXN</span>
-		</div>
-		<button class="carri">Agregar Carrito</button>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera mujer bob-esponja.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>BOB ESPONJA ROSA</h2>
+				<p class="price">$250</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
 	</div>
 
-	<div class="compras">
-		<div>
-			<img src="img/playeraM.jpg" height="250px" width="210px">
-		</div>
-
-		<div class="dolares">
-			<span>$</span>
-			<span>150.99</span>
-			<span>MXN</span>
-		</div>
-		<button class="carri">Agregar Carrito</button>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+			</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/hmgoepprod.jfif" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>NEWYORK 2013</h2>
+				<p class="price">$300</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
 	</div>
 
-	<div class="compras">
-		<div>
-			<img src="img/playeraM.jpg" height="250px" width="210px">
-		</div>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+			</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera mujer rosa.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>ROSA POSIESTER</h2>
+				<p class="price">$200</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
 
-		<div class="dolares">
-			<span>$</span>
-			<span>150.99</span>
-			<span>MXN</span>
-		</div>
-		<button class="carri">Agregar Carrito</button>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/61o2tsLoc3L._AC_SX569_.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>LOS ANGELES</h2>
+				<p class="price">$250</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera mujer corazon.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CORAZON ETERNO</h2>
+				<p class="price">$280</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playeras-mujer_cerati02-rosa.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>ROSA ROSITA</h2>
+				<p class="price">$170</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera mujer negra.jfif" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>COLORIDOS</h2>
+				<p class="price">$290</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera mujer ositos.jfif" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>ESCANDALOSOS</h2>
+				<p class="price">$230</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera gatito.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>GATITO</h2>
+				<p class="price">$190</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera alienijena.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>ALIENIJENA</h2>
+				<p class="price">$230</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera cerveza.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>MODELO</h2>
+				<p class="price">$150</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera carita.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SMILEY fACE</h2>
+				<p class="price">$250</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			<figure>
+				<img src="img/plam/playera flow.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>HIT HOP</h2>
+				<p class="price">$280</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<span>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" 
+			viewBox="0 0 24 24" 
+			fill="currentColor" 
+			class="fact">
+  			<path fill-rule="evenodd" d="M6.32 2.577a49.255 49.255 0 0111.36 0c1.497.174 2.57 1.46 2.57 2.93V21a.75.75 0 01-1.085.67L12 18.089l-7.165 3.583A.75.75 0 013.75 21V5.507c0-1.47 1.073-2.756 2.57-2.93z" clip-rule="evenodd" />
+			</svg>
+			</span>
+			<figure>
+				<img src="img/plam/playera pluma.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>BLACK FEATHER</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
 	</div>
 
 	

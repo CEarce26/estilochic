@@ -4,27 +4,349 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-	<script type="text/javascript" src="js/funciones.js"></script>
-	<title>lenceria</title>
+	<script type="text/javascript" src="js/funciones1.js"></script>
+	<title>Lenceria</title>
 </head>
 <body>
 
+	<a href="index.html" class="regre"><img src="img/flecha izquierda.png" height="60px" width="60px"></a>
+	
 	<div class="menu">
 			<h1>Estilo chic</h1>
-			
+
+			<div class="favoritos">
+				<img src="img/favorito.jpg" class="favo">
+			</div>
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg xmlns="http://www.w3.org/2000/svg" 
+						fill="none" 
+						viewBox="0 0 24 24" 
+						stroke-width="1.5" 
+						stroke="currentColor" 
+						class="icon-cart">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/>
+					</svg>
+					<div class="count-porducts">
+						<span id="contador-products">0</span>
+					</div>
+				</div>
+				
+				<div>
+					<div class="container-cart-products hidden-cart">
+						<div class="row-product">
+							<div class="cart-product">
+								<div class="info-cart-product">
+									<span class="cantidad-producto-carrito">
+										1
+									</span>
+									<p class="titulo-producto-carrto">
+										CACTUS SET
+									</p>
+									<span class="precio-producto-carrito">
+										$220
+									</span>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" 
+									fill="none" 
+									viewBox="0 0 24 24" 
+									stroke-width="1.5" 
+									stroke="currentColor" 
+									class="icon-close"
+									>
+	 								 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+								</svg>
+							</div>
+						</div>
+						
+
+						<div class="cart-total">
+							<h3>Total:</h3>
+							<span class="total-pagar">220</span>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
 	
-			<button class="iniciar"><b>iniciar sesion</b></button>
+	
+	<div class="menu-dar">
+		<img src="img/tres barras.jpg" class="tod-menus">
+		<span>Menu</span>
+	</div>
+	<div class="topmenu">
+		<ul class="rojo">
+			<li><a href="playerasm.html" class="ver">Playeras</a></li>
+			<li><a href="blusa.html" class="ver">Blusas</a></li>
+			<li><a href="vestidos.html" class="ver">Vestidos</a></li>
+			<li><a href="lenceria.html" class="ver">Pijamas</a></li>
+			<li><a href="trajedebaño.html" class="ver">Traje de baño</a></li>
+			<li><a href="pantalones.html" class="ver">Pantalones</a></li>
+			<li><a href="deporte.html" class="ver">Deporte</a></li>
+			<li><a href="falda.html" class="ver">Falda</a></li>
+		</ul>
+	</div>
 
-		</div>
+	
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
 
-		<div class="topmenu">
-			<div class="gar mujeres">MUJERES</div>
-			<div class="gar ninos">NIÑOS</div>
-			<div class="gar hombres">HOMBRES</div>
-			<div class="gar belleza">BELLEZA</div>
-		</div>
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/chaqueta.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SECT TUS</h2>
+				<p class="price">$150</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/playera mujer1.png" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>CACTUS SET</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
+	<div class="container-items">
+		<div class="item">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fac">
+ 				 <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z" />
+				</svg>
+			<figure>
+				<img src="img/sudaderas.jpg" alt="producto">
+			</figure>
+			<div class="info-product">
+				<h2>SUDADERA</h2>
+				<p class="price">$220</p>
+				<button class="btn-add-cart">Agregar al carrito</button>
+			</div>
+		</div> 
+	</div>
+
 		
 </body>
 </html>
