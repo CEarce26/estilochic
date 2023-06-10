@@ -54,8 +54,8 @@ $(document).ready(function()
 	});
 
 	  const signUpButton = document.getElementById("signUp");
-      const signInButton = document.getElementById("signIn");
-      const container = document.getElementById("container");
+     const signInButton = document.getElementById("signIn");
+     const container = document.getElementById("container");
 
       signUpButton.addEventListener("click", () => {
       container.classList.add("right-panel-active");
@@ -64,5 +64,26 @@ $(document).ready(function()
       signInButton.addEventListener("click", () => {
       container.classList.remove("right-panel-active");
    });
+
+
+      
+
+      const btnCart = document.querySelector('.container-icon')
+		const containerCartProducts = document.querySelector('.container-cart-products')
+
+		btnCart.addEventListener('click', () => {
+   	containerCartProducts.classList.toggle('hidden-cart')
+	});
+
+		$(".list-product").hide()
+
+		$(".busca").on("click",function()
+		{
+ 				alert("hola")
+		});
+
+
+
+	
 
 });
