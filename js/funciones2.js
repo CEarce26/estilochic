@@ -4,6 +4,18 @@
             fruta.textContent.toLowerCase().includes(e.target.value)
             ? fruta.classList.remove('filtro')
             : fruta.classList.add('filtro');
-        })
+        });
     }
-})
+});
+
+
+$(document).ready(function()
+{
+
+$("#buscador").on("click",function()
+{
+    $(".articulo-pong").css("display","inline-block");
+});
+
+
+});

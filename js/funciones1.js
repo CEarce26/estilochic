@@ -1,4 +1,4 @@
-$(document).ready(function()
+    $(document).ready(function()
 {
 
 const btnCart = document.querySelector('.container-cart-icon')
