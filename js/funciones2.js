@@ -13,9 +13,7 @@ $(document).ready(function()
 {
 
 $("#buscador").on("click",function()
-{
-    $(".articulo-pong").css("display","inline-block");
-});
-
-
+    {
+        $(".articulo-pong").css("display","inline-block");
+    });
 });
