@@ -344,31 +344,31 @@
 }
 
 .redes{
-	/*ckground: #CCD1D1;*/
-	height: 50px;
-	margin: 10px;
-	text-align: center;
+	display: flex;
 	float: left;
+	margin-left: 42%;
+	padding: 20px;
 }
 
 .sociales{
-	margin:2px;
+	margin: 7px;
 }
 
 .anun{
 	margin: 40px 200px;
 }
 
-.promociones{
-	margin: 10px; 
-
+.promociones{ 
+	padding: 10px;
+	display: inline-block;
+	justify-content: center;
 }
 
-.espacio{
-	height: 40px;
-	width: 130px;
-	color: white;
+.separar{
+	margin-left: 12%;
 }
+
+
 
 
 *{
@@ -380,7 +380,7 @@
 
 .slider{
 	width: 100%;
-	height: 750px;
+	height: 100%;
 	overflow: hidden;
 	margin: 20px 100px;
 }
