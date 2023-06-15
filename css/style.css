@@ -80,7 +80,7 @@
 	padding: 10px;*/
 
 	display: inline-block; 
-	width: 18%; 
+	width: 16%; 
 	height: 100%;
 	text-align: center; 
 	padding: 20px 20px 10px 0px;
@@ -224,18 +224,18 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	/*padding: 10px;*/
 	float: left;
 }
 .todo
 {
 	/*background: ;*/
 	/*height: 200px;*/
-	width: 240px;
-	margin: 20px;
+	width: 200px;
+	margin: 10px;
+	height: 110px;
 	display: flex;
 	border: 4px solid #D0D0D0;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 .todo:hover{
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.20);
@@ -243,7 +243,7 @@
 
 .elin
 {
-	padding: 50px 5px 0px 0px;
+	padding: 40px 5px 0px 0px;
 	text-align: center;
 	width: 100px;
 }
@@ -348,7 +348,7 @@
 	height: 50px;
 	margin: 10px;
 	text-align: center;
-	
+	float: left;
 }
 
 .sociales{
@@ -398,7 +398,7 @@
 
 .slider img{
 	width: 100%;
-	height: 750px;
+	height: 100%;
 }
 
 @keyframes cambio{
