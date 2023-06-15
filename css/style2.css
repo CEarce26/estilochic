@@ -250,7 +250,6 @@ ul{
 	background: #B2BABB;
 	position: absolute;
 	width: 200px;
-	border-radius: ;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 
 }
@@ -297,4 +296,11 @@ a{
 
 .fb-comments{
 	background: red;
+}
+
+@media screen and (max-width:100%;){
+	.container-items{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
 }
