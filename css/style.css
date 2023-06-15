@@ -16,6 +16,7 @@
  	background: black;
  	color: white;
 	max-width: 100%;
+	display: flex;
  }
 
  .topmenu
@@ -107,35 +108,31 @@
 
 .moda3
 {
-	height: 600px;
-	width: 1200px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 30px 50px 20px 100px;
+	display: inline-block;
+	width: 80%;
+	height: 315px;
+	float: left;
+	text-align: center;
+	padding: 20px 10px 20px 20px;
 }
 
 .moda4
 {
-	height: 250px;
-	width: 240px;
-	display: inline-block;
-	vertical-align: top;
-	position: absolute;
-	top: 185px;
-	right: 100px;
-	padding: 10px;
+	display: inline-block; 
+	width: 20%; 
+	height: 100%;
+	text-align: center; 
+	padding: 20px 20px 10px 0px;
 
 }
 
 .moda5
 {
-	height: 320px;
-	width: 240px;
-	position: absolute;
-	top: 435px;
-	right: 100px;
-	padding: 10px
+	display: inline-block; 
+	width: 20%; 
+	height: 100%;
+	text-align: center; 
+	padding: 0px 20px 10px 0px;
 }
 
 .moda6
@@ -210,13 +207,12 @@
 {
 	background: white;
 	color: black;
-	margin: 7px;
+	position: absolute;
+	top: 45px;
+	right: 20px;
 	padding: 10px 20px;
 	border-radius: 5px;
 	cursor: pointer;
- 	position: absolute;
- 	top: 38px;
- 	right: 60px;
 }
 
 .muj, .nun, .hom, .bel
@@ -297,7 +293,7 @@
 .buscar{
 	position: absolute;
 	top: 45px;
-	right: 340px;
+	right: 180px;
 }
 
 .input{
@@ -312,35 +308,10 @@
 	transition: all .7s ease;
 }
 
-/*.bus{
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 35px;
-	height: 35px;
-	background: white;
-	line-height: 50px;
-	border-radius: 50px;
-	text-align: center;
-	cursor: pointer;
-	transition: .5s;
-}*/
-
-/*.bus i{
-	font-size: 20px;
-	color: white;
-	line-height: 70px;
-	transition: all .7s ease;
-}*/
-
-.buscar:hover input{
-	width: 250px;
-}
-
 .busca{
-	position: absolute;
+	position: absolute;	
 	top: 10px;
-	right: 10px;	
+	right: 10px;
 }
 
 .redes{
@@ -356,6 +327,7 @@
 
 .anun{
 	margin: 40px 200px;
+	max-width: 100%;
 }
 
 .promociones{ 
@@ -425,7 +397,8 @@
 	list-style: none;
 	text-align: center;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-	display: none;      
+	display: none; 
+
 }
 
 .list-product{
