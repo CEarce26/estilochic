@@ -317,7 +317,7 @@
 .redes{
 	display: flex;
 	float: left;
-	margin-left: 30%;
+	margin-left: 43%;
 	padding: 20px;
 }
 
@@ -331,13 +331,13 @@
 }
 
 .promociones{ 
-	padding: 5px;
+ 	margin: 10px;
 	display: inline-block;
 	justify-content: center;
 }
 
 .separar{
-	margin-left: 8%;
+	margin-left: 15%;
 }
 
 
@@ -351,7 +351,8 @@
 
 
 .slider{
-	width: 100%;
+	width: 1250px;
+	max-width: 100%;
 	height: 100%;
 	overflow: hidden;
 	margin: 20px 100px;
@@ -414,22 +415,7 @@ a{
 .filtro{
 	display: none;
 }
+ 
 
 
-.escudo{
-	position: absolute;
-	top: 10px;
-	left: 580px;
-	height: 100px;
-}
 
-@media screen and (max-width:900px){
-	header{
-		background-position: center;
-	}
-.contenedor-sobre-nosotros{
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	}
-}
